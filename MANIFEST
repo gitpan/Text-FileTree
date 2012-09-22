@@ -1,0 +1,17 @@
+.gitignore
+bin/find2tree.pl
+Changes
+lib/Text/FileTree.pm
+Makefile.PL
+MANIFEST			This list of files
+MANIFEST.SKIP
+MYMETA.yml
+README
+t/01-distribution.t
+t/02-normal.t
+t/02-windows.t
+t/data/reference
+t/data/windows
+t/lib/Test/Text/FileTree.pm
+META.yml                                 Module meta-data (added by MakeMaker)
+SIGNATURE                                Public-key signature (added by MakeMaker)

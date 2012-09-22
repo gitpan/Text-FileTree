@@ -1,0 +1,43 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.68.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 a1f0bce74aef2204401e4bef99f85d600ca8800a .gitignore
+SHA1 2b85ad75a6792a51f9f9d2dbc0f6c9a68d058acf Changes
+SHA1 8e5655408fa68300a1c2b3872b3b442f8385adde MANIFEST
+SHA1 86056af0a8522c31c2f34652f03149d0fd712c19 MANIFEST.SKIP
+SHA1 f639cdfc30021f10c719878c6caa543b093fc426 META.yml
+SHA1 31075106f8f0da65a0c50ed4d0b43f146c8d1743 MYMETA.yml
+SHA1 81084c315adef13bb898e1ca1097ebe97c91e64f Makefile.PL
+SHA1 c8067ffc48c3747977d6d1f9c1a96fee9d7f606b README
+SHA1 7dc4be1b2eef234d4ae245bc20406ed254ac1d95 bin/find2tree.pl
+SHA1 3c00c67def5b72f68ad925f36fbe79a5665aba5d lib/Text/FileTree.pm
+SHA1 0041aa9cc5249bb8409f513223ee3b68bbe3a164 t/01-distribution.t
+SHA1 eda3e414edc5470213f942570f4af27754f93d7a t/02-normal.t
+SHA1 cca799bf6870215cbc17d11e25a29bf47a27458f t/02-windows.t
+SHA1 397baa208d47e7af0cee5b63e5881759369c8949 t/data/reference
+SHA1 246eadb8c2d059bd889a2f09ffb1adfdd2b57347 t/data/windows
+SHA1 f20d923a5d72c6eb7913b16831da6202a2c3e749 t/lib/Test/Text/FileTree.pm
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQEcBAEBAgAGBQJQXdITAAoJEPoSOGhqL2inF10IALXdUTqyXEiY8n0HfBrW+Ulb
+61T1SUA9pYVrJO40Ye9FvuJTU6XVwRF+BbmWZStgcPnNUE73mHSx8kdsnOYxN5rX
+Xn/WsbYh7I1/6z1+rKDNc/RAYOrM4HVwQZGz6cHd3rpkLc4zQxuIVgJz0V3krGqk
+XTO0/BmGw3EAbL51zXGYPd8ERigbP4i8GmD9TLuwUXv1HFyOD3sgMcXXC406YqkB
+01TP2w/xLFda5ATnF5mydGStx1u4/NlvjvBXmNn88eNIg+TkADXBN/drbTdloEf6
+SKj3b83/a7/L++10SuxTVIFwJ5uYTZLh3XZVV0nHthN7rW540OodU5EiRjebkOs=
+=SPYE
+-----END PGP SIGNATURE-----
