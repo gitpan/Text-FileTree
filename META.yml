@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Text-FileTree
-version:            0.1
+version:            0.2
 abstract:           convert a list of files with full paths to a tree
 author:
     - Olof Johansson <olof@cpan.org>

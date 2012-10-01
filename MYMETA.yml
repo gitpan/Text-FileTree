@@ -21,4 +21,4 @@ no_index:
 requires:
   File::Slurp: 0
   Test::More: 0
-version: 0.1
+version: 0.2

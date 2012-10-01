@@ -5,7 +5,7 @@ package Text::FileTree;
 # This program is free software; you can redistribute it and/or
 # modify it under the same terms as Perl itself.
 
-our $VERSION = 0.1;
+our $VERSION = 0.2;
 
 use warnings FATAL => 'all';
 use strict;
@@ -97,7 +97,7 @@ sub __parse_file {
 	my $prnt = $self->{data};
 
 	for($fs->splitdir($file)) {
-		$prnt = $prnt->{$_} = $prnt->{$_} // {};
+		$prnt = $prnt->{$_} = defined $prnt->{$_} ? $prnt->{$_} : {};
 	}
 }
 
