@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Text-FileTree
-version:            0.2
+version:            0.21
 abstract:           convert a list of files with full paths to a tree
 author:
     - Olof Johansson <olof@cpan.org>
@@ -11,8 +11,9 @@ configure_requires:
 build_requires:
     ExtUtils::MakeMaker:  0
 requires:
-    File::Slurp:  0
-    Test::More:   0
+    File::Slurp:   0
+    Module::Load:  0
+    Test::More:    0
 no_index:
     directory:
         - t

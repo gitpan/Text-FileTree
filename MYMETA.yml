@@ -20,5 +20,6 @@ no_index:
     - inc
 requires:
   File::Slurp: 0
+  Module::Load: 0
   Test::More: 0
-version: 0.2
+version: 0.21
