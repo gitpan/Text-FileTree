@@ -1,24 +1,19 @@
---- #YAML:1.0
-name:               Text-FileTree
-version:            0.21
-abstract:           convert a list of files with full paths to a tree
+---
+abstract: 'convert a list of files with full paths to a tree'
 author:
-    - Olof Johansson <olof@cpan.org>
-license:            perl
-distribution_type:  module
-configure_requires:
-    ExtUtils::MakeMaker:  0
-build_requires:
-    ExtUtils::MakeMaker:  0
-requires:
-    File::Slurp:   0
-    Module::Load:  0
-    Test::More:    0
-no_index:
-    directory:
-        - t
-        - inc
-generated_by:       ExtUtils::MakeMaker version 6.57_05
+  - 'Olof Johansson <olof@cpan.org>'
+build_requires: {}
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.140640'
+license: perl
 meta-spec:
-    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
-    version:  1.4
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Text-FileTree
+no_index:
+  directory:
+    - t
+    - inc
+resources:
+  repository: https://github.com/olof/Text-FileTree.git
+version: '0.22'

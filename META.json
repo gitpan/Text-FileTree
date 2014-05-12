@@ -1,0 +1,31 @@
+{
+   "abstract" : "convert a list of files with full paths to a tree",
+   "author" : [
+      "Olof Johansson <olof@cpan.org>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.140640",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Text-FileTree",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/olof/Text-FileTree.git",
+         "web" : "https://github.com/olof/Text-FileTree"
+      }
+   },
+   "version" : "0.22"
+}

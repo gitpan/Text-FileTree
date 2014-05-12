@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.68.
+signed via the Module::Signature module, version 0.73.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,16 +14,16 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 a1f0bce74aef2204401e4bef99f85d600ca8800a .gitignore
-SHA1 64e556446c6950e876d8696c2f0574a09c44ec8e Changes
-SHA1 8e5655408fa68300a1c2b3872b3b442f8385adde MANIFEST
+SHA1 bccf8453027fa850efabd973123f9f4c912fdd01 .gitignore
+SHA1 29a3fbfe4def47bc7e167b00757d8bf15c29ea74 Changes
+SHA1 a0745933247cf39fdf3d6723d2c94b4416f07fc5 MANIFEST
 SHA1 86056af0a8522c31c2f34652f03149d0fd712c19 MANIFEST.SKIP
-SHA1 c3b87041f12645936ded884077a30b40a5d4844a META.yml
-SHA1 4cd78e622c9b912318166d353d5aaf3deec5e17d MYMETA.yml
-SHA1 37b0de24788b37b60541893d9a5d74e0505be3cb Makefile.PL
+SHA1 5fe375af58282d2422628f9b360029d5e33bb451 META.json
+SHA1 d50e0e699de8374d692feb3e1407b7caa8a48d85 META.yml
+SHA1 7a7cb5f44ef4d2109e8f43ecad2c4b4a5392416f Makefile.PL
 SHA1 c8067ffc48c3747977d6d1f9c1a96fee9d7f606b README
 SHA1 7dc4be1b2eef234d4ae245bc20406ed254ac1d95 bin/find2tree.pl
-SHA1 51881d5afd4bfa7827347362aa5e6d59f6c06d2a lib/Text/FileTree.pm
+SHA1 5f215c72f159f0a5eaa5e36dc7800e72d347f035 lib/Text/FileTree.pm
 SHA1 0041aa9cc5249bb8409f513223ee3b68bbe3a164 t/01-distribution.t
 SHA1 86795f27235fac6085ab0a7abdbcc2907c191035 t/02-normal.t
 SHA1 cca799bf6870215cbc17d11e25a29bf47a27458f t/02-windows.t
@@ -31,13 +31,9 @@ SHA1 397baa208d47e7af0cee5b63e5881759369c8949 t/data/reference
 SHA1 246eadb8c2d059bd889a2f09ffb1adfdd2b57347 t/data/windows
 SHA1 5726a07ea066d8a1c99c0359dc6e4bf489e07ced t/lib/Test/Text/FileTree.pm
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.12 (GNU/Linux)
+Version: GnuPG v1
 
-iQEcBAEBAgAGBQJQa1T4AAoJEPoSOGhqL2inZRoH+QHFb4w7/wO22aNEuji3KQ/C
-h1xuZxye49p78u5Z1jaovXcmeSIBSKVWd0oVziAX3Iq6i0bXfXo2z+6WxBmDzkXl
-DUyACN8BPibGBhf3yrIxWcQ3LZgNwh/7q6jbJGpBYnBva+ByfuNlwELFXrZMaoAZ
-YOIsK0qjXq391D+uNwIo16rjW0O1M4rs5zovXda8eyv4S2+H3M4y3VXztGwKyiHW
-l2WHslSNaWqa2yfeKB8vVZ4QzpldOfPgdqkzJPQdTBbrn+x3R2ksqWyAg+S973UK
-jslEvl63qpq3rGszTg2Y4gNVm3Pj+d+U+hgYAOOk7Qz3runSKshmQyeUg+IBGps=
-=l1qU
+iEYEARECAAYFAlNxC08ACgkQCPS7eH/A+7phHACfYHiVV7ok6XPskBdp961c6ewl
+QCEAnjg4e3lI9ERIt7Bh6R3RB+K8mZaM
+=+FHc
 -----END PGP SIGNATURE-----
